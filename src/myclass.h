@@ -1,10 +1,10 @@
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
-class myclass
+class MyClass
 {
 public:
-    myclass();
+    MyClass();
 };
 
 #endif // MYCLASS_H

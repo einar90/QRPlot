@@ -1,5 +1,5 @@
 #include "myclass.h"
 
-myclass::myclass()
+MyClass::MyClass()
 {
 }
