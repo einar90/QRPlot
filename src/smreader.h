@@ -1,10 +1,15 @@
 #ifndef SMREADER_H
 #define SMREADER_H
 
-class SMReader
-{
+#include <QString>
+
+class SMReader {
+private:
+    bool fileOpened;
+
 public:
-    SMReader();
+    SMReader(QString filename);
+    bool isFileOpen();
 };
 
 #endif // SMREADER_H

@@ -1,10 +1,18 @@
 #ifndef SUMMARY_H
 #define SUMMARY_H
 
-class Summary
-{
+#include <property.h>
+#include <propertylist.h>
+
+class Summary {
+private:
+    PropertyList propertyList;
+    QString title;
 public:
-    Summary();
+    Summary(QString title, PropertyList propertyList);
+    QString getTitle();
+    PropertyList getProperties();
+    QStringList getPropertyNames();
 };
 
 #endif // SUMMARY_H

@@ -1,1 +1,5 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/toolbar">
+        <file>../icons/folder.png</file>
+    </qresource>
+</RCC>
